@@ -70,7 +70,7 @@ public class CountryController {
         Country updatedCountry = countryService.updateCountry(existingCountry);
         return new ResponseEntity<Country>(updatedCountry, HttpStatus.OK);
     }
-
+ 
     // delete Country rest api
 //    @DeleteMapping("/Countrys")
 //    public void deleteCountry(@PathVariable Country country) {
